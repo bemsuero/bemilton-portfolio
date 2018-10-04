@@ -37,7 +37,7 @@
 
 .row h2 {
   text-shadow: 1px 1px 4px rgb(0,41,255);
-  margin-top: 15%;
+  margin-top: 10%;
   text-transform: uppercase;
 }
 
@@ -138,6 +138,11 @@ border-radius: 8px;
   padding: 2%;
 }
 
+#moreToCome {
+  border-radius: 8px;
+  margin-bottom: 6%;
+}
+
 #contactBox {
   height: auto;
   width: 40vw;
@@ -154,4 +159,69 @@ border-radius: 8px;
   color: white;
   font-size: 5vh;
   padding: 2%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 410px) {
+
+#home {
+  padding-top: 25%;
+}
+
+#experience {
+  height: 196vh;
+}
+
+#projects {
+  height: 315vh;
+}
+
+#contact {
+  height: 70vh;
+}
+
+#contactBox {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+.resumeHolder {
+  width: 100%;
+  margin-left: 0%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 411px)
+and (max-device-width : 736px) {
+  #home {
+    padding-top: 25%;
+    height: 120vh;
+  }
+
+  #experience {
+    height: 175vh;
+  }
+
+  #projects {
+    height: 360vh;
+  }
+
+  #contact {
+    height: 70vh;
+  }
+
+  #contactBox {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 5%;
+  }
+
+  .resumeHolder {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
