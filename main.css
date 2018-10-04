@@ -3,22 +3,24 @@
   text-align: center;
 }
 
-.container nav button {
+ nav button {
   text-decoration: none;
   color: black;
   padding-left: 3%;
   background-color: rgba(255,199,0,0);
   border: none;
 }
-.container nav button:hover {
+ nav button:hover {
   color: rgb(0,43,116);
+  background-color: rgba(255,199,0,0);
+  border: none;
 }
 
 #nav {
   border-bottom: 1px solid black;
   text-align: center;
   position: fixed;
-  width: 91.75%;
+  width: 100%;
   top: 0;
   background-color: white;
 }
@@ -37,6 +39,11 @@
   text-shadow: 1px 1px 4px rgb(0,41,255);
   margin-top: 15%;
   text-transform: uppercase;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgba(0,0,0,.53), rgba(0,0,0,.53));
+    padding-bottom: 15%;
 }
 
 #home {
