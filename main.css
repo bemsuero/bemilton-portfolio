@@ -42,8 +42,10 @@
 }
 
 .gradient {
-    background-image: linear-gradient(to right, rgba(0,0,0,.53), rgba(0,0,0,.53));
-    padding-bottom: 15%;
+  background-image: linear-gradient(to right, rgba(0,0,0,.53), rgba(0,0,0,.53));
+  padding-bottom: 15%;
+  height: auto;
+  width: auto;
 }
 
 #home {
@@ -53,12 +55,12 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 #home p {
   color: white;
-  font-size: 3vh;
+  font-size: 30px;
   text-shadow: 1px 1px 4px rgb(0,41,255);
 }
 
@@ -70,7 +72,7 @@
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: 125vh;
+  height: auto;
 }
 
 #projects {
@@ -82,12 +84,12 @@
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: 125vh;
+  height: auto;
 }
 
 #projects p {
-background-color: rgba(255,255,255,.8);
-border-radius: 8px;
+  background-color: rgba(255,255,255,.8);
+  border-radius: 8px;
 }
 
 
@@ -101,7 +103,7 @@ border-radius: 8px;
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: 125vh;
+  height: auto;
 }
 
 .resumeHolder {
@@ -130,7 +132,7 @@ border-radius: 8px;
 }
 .websiteGifs a {
   width: 100%;
-    padding: 2%;
+  padding: 2%;
 }
 
 .websiteGifs img {
@@ -146,8 +148,8 @@ border-radius: 8px;
 #contactBox {
   height: auto;
   width: 40vw;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 5%;
   padding-bottom: 5%;
   background-color: rgb(0,108,181);
@@ -180,10 +182,10 @@ border-radius: 8px;
 }
 
 #contactBox {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
 }
 
 .resumeHolder {
@@ -194,34 +196,36 @@ border-radius: 8px;
 }
 
 @media only screen
-and (min-device-width : 411px)
-and (max-device-width : 900px) {
+and (min-width: 411px)
+and (max-width: 1300px) {
+
   #home {
-    padding-top: 25%;
-    height: auto;
+  padding-top: 25%;
+  width: auto;
   }
 
   #experience {
-    height: auto;
+  height: auto;
   }
 
   #projects {
-    height: auto;
+  height: auto;
   }
 
   #contact {
-    height: auto;
+  height: auto;
   }
 
   #contactBox {
-      width: 90%;
-      margin-left: 5%;
-      margin-right: 5%;
-      padding: 5%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
   }
 
   .resumeHolder {
-    width: 100%;
-    margin-left: 0%;
+  width: 100%;
+  margin-left: 0%;
   }
+
 }
