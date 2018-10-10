@@ -1,29 +1,49 @@
 
 $(document).ready(function(){
   $( "#steamText" ).hide();
-  $( "#steam" ).mouseenter(function(){
+  $( "#steam" ).mouseover(function(){
     $( "#steamText").show();
-    $(this).hide();
+    $("#steamImage").hide();
+  });
+  $( "#steam" ).mouseleave(function(){
+      $( "#steamText").hide();
+      $("#steamImage").show();
   });
   $( "#platesText" ).hide();
-  $( "#plates" ).mouseenter(function(){
+  $( "#plates" ).mouseover(function(){
     $( "#platesText").show();
-    $(this).hide();
+    $("#platesImage").hide();
+  });
+  $( "#plates" ).mouseleave(function(){
+      $( "#platesText").hide();
+      $("#platesImage").show();
   });
   $( "#schoolText" ).hide();
-  $( "#school" ).mouseenter(function(){
+  $( "#school" ).mouseover(function(){
     $( "#schoolText").show();
-    $(this).hide();
+    $("#schoolImage").hide();
+  });
+  $( "#school" ).mouseleave(function(){
+      $( "#schoolText").hide();
+      $("#schoolImage").show();
   });
   $( "#topsecretText" ).hide();
-  $( "#topsecret" ).mouseenter(function(){
+  $( "#topsecret" ).mouseover(function(){
     $( "#topsecretText").show();
-    $(this).hide();
+    $("#topsecretImage").hide();
+  });
+  $( "#topsecret" ).mouseleave(function(){
+      $( "#topsecretText").hide();
+      $("#topsecretImage").show();
   });
   $( "#tictactoeText" ).hide();
-  $( "#tictactoe" ).mouseenter(function(){
+  $( "#tictactoe" ).mouseover(function(){
     $( "#tictactoeText").show();
-    $(this).hide();
+    $("#tictactoeImage").hide();
+  });
+  $( "#tictactoe" ).mouseleave(function(){
+      $( "#tictactoeText").hide();
+      $("#tictactoeImage").show();
   });
 
   $("#homeButton").click(function() {

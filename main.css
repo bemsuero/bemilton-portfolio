@@ -168,15 +168,15 @@ border-radius: 8px;
 }
 
 #experience {
-  height: 196vh;
+  height: auto;
 }
 
 #projects {
-  height: 315vh;
+  height: auto;
 }
 
 #contact {
-  height: 70vh;
+  height: auto;
 }
 
 #contactBox {
@@ -195,22 +195,22 @@ border-radius: 8px;
 
 @media only screen
 and (min-device-width : 411px)
-and (max-device-width : 736px) {
+and (max-device-width : 900px) {
   #home {
     padding-top: 25%;
-    height: 120vh;
+    height: auto;
   }
 
   #experience {
-    height: 175vh;
+    height: auto;
   }
 
   #projects {
-    height: 360vh;
+    height: auto;
   }
 
   #contact {
-    height: 70vh;
+    height: auto;
   }
 
   #contactBox {
