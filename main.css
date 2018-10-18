@@ -169,22 +169,18 @@ and (max-width: 410px) {
 #home {
   padding-top: 25%;
    height: auto;
-   background-size: auto;
 }
 
 #experience {
   height: auto;
-  background-size: auto;
 }
 
 #projects {
   height: auto;
-  background-size: auto;
 }
 
 #contact {
   height: auto;
-  background-size: auto;
 }
 
 #contactBox {
