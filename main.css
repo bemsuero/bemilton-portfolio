@@ -169,30 +169,18 @@ and (max-width: 410px) {
 #home {
   padding-top: 25%;
    height: auto;
-   background-position: center;
-   background-attachment: fixed;
-     background-size: 150vh;
 }
 
 #experience {
   height: auto;
-  background-position: center;
-  background-attachment: fixed;
-    background-size: 150vh;
 }
 
 #projects {
   height: auto;
-  background-position: center;
-  background-attachment: fixed;
-    background-size: 150vh;
 }
 
 #contact {
   height: auto;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 150vh;
 }
 
 #contactBox {
