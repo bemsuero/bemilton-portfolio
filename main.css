@@ -48,7 +48,7 @@
 }
 
 #home {
-  background: url("resources/first.jpg");
+  background: url("resources/first.gif");
   padding: 5%;
   background-repeat: no-repeat;
   background-position: center;
@@ -168,7 +168,8 @@ and (max-width: 410px) {
 
 #home {
   padding-top: 25%;
-   height: auto;
+  height: auto;
+  background: url("resources/first.jpg");
 }
 
 #experience {
