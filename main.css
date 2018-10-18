@@ -166,18 +166,19 @@
 
 #home {
   padding-top: 25%;
+   height: 150vh;
 }
 
 #experience {
-  height: 175vh;
+  height: 200vh;
 }
 
 #projects {
-  height: 175vh;
+  height: 300vh;
 }
 
 #contact {
-  height: 175vh;
+  height: 75vh;
 }
 
 #contactBox {
@@ -200,19 +201,19 @@ and (max-width: 1300px) {
 
   #home {
   padding-top: 25%;
-  height: 150vh;
+  height: auto;
   }
 
   #experience {
-  height: 150vh;
+  height: auto;
   }
 
   #projects {
-  height: 150vh;
+  height: auto;
   }
 
   #contact {
-  height: 75vh;
+  height: auto;
   }
 
   #contactBox {
