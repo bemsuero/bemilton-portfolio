@@ -167,18 +167,22 @@
 #home {
   padding-top: 25%;
    height: 150vh;
+   background-size: auto;
 }
 
 #experience {
   height: 200vh;
+  background-size: auto;
 }
 
 #projects {
   height: 300vh;
+  background-size: auto;
 }
 
 #contact {
   height: 75vh;
+  background-size: auto;
 }
 
 #contactBox {
