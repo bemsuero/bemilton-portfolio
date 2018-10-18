@@ -45,7 +45,6 @@
   background-image: linear-gradient(to right, rgba(0,0,0,.53), rgba(0,0,0,.53));
   padding-bottom: 15%;
   height: auto;
-  width: auto;
 }
 
 #home {
@@ -55,7 +54,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: auto;
+  height: 125vh;
 }
 
 #home p {
@@ -72,7 +71,7 @@
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: auto;
+  height: 125vh;
 }
 
 #projects {
@@ -84,7 +83,7 @@
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: auto;
+  height: 125vh;
 }
 
 #projects p {
@@ -103,7 +102,7 @@
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: auto;
+  height: 125vh;
 }
 
 .resumeHolder {
@@ -170,15 +169,15 @@
 }
 
 #experience {
-  height: auto;
+  height: 175vh;
 }
 
 #projects {
-  height: auto;
+  height: 175vh;
 }
 
 #contact {
-  height: auto;
+  height: 175vh;
 }
 
 #contactBox {
@@ -201,19 +200,19 @@ and (max-width: 1300px) {
 
   #home {
   padding-top: 25%;
-  width: auto;
+  height: 150vh;
   }
 
   #experience {
-  height: auto;
+  height: 150vh;
   }
 
   #projects {
-  height: auto;
+  height: 150vh;
   }
 
   #contact {
-  height: auto;
+  height: 75vh;
   }
 
   #contactBox {
