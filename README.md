@@ -1,3 +1,3 @@
-https://bemsuero.github.io/portfolio_2018/
+https://bemsuero.github.io/portfolio-2018/
 
 Bemilton Suero's Portfolio.
