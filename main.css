@@ -167,7 +167,7 @@ and (min-width: 320px)
 and (max-width: 410px) {
 
 #home {
-  padding-top: 25%;
+  padding-top: 20%;
   height: auto;
   background: url("resources/first.jpg");
 }
@@ -203,7 +203,7 @@ and (min-width: 411px)
 and (max-width: 1300px) {
 
   #home {
-  padding-top: 25%;
+  padding-top: 20%;
   height: auto;
   }
 
